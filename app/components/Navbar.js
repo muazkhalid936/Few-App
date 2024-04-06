@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="drawer w-10 lg:hidden">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
-            <label htmlFor="my-drawer" className="btn drawer-button">
+            <label htmlFor="my-drawer" className="btn mr-3 drawer-button">
               <FaBars />
             </label>
           </div>
