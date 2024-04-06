@@ -12,6 +12,7 @@ function Card(props) {
           <h2 className="card-title">Shoes!</h2>
           <p>If a dog chews shoes whose shoes does he choose?</p>
           <div className="card-actions justify-end">
+            <p className="text-green-500">In stock </p>
             <button className="btn btn-primary z-10">View Product</button>
           </div>
         </div>

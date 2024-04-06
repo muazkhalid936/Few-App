@@ -4,10 +4,11 @@ export const Product = () => {
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content grid grid-cols-2 gap-80 ">
+        <div className="hero-content flex-col lg:gap-96 lg:flex-row-reverse">
+          <img src="./1.jpeg" className="w-60 lg:w-80 rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-5xl font-bold">Features</h1>
-            <p className="py-6">
+            <ul className="py-6 list-disc">
               <li>Resolution</li>
               <li>Field of View (FOV)</li>
               <li>Night Vision</li>
@@ -16,9 +17,9 @@ export const Product = () => {
               <li>Zoom (PTZ)</li>
               <li>Two-Way Audio Cloud</li>
               <li>Storage and Local Storage Mobile App Integration</li>
-            </p>
+            </ul>
+            <button className="btn btn-primary">Buy Now</button>
           </div>
-          <img src="./1.jpeg" className="w-80 rounded-lg shadow-2xl" />
         </div>
       </div>
     </>
