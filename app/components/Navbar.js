@@ -13,7 +13,7 @@ var isUserAdmin = true;
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-blue-400">
+      <div className=" fixed navbar top-0 bg-blue-400 z-50">
         <div className="drawer w-10 lg:hidden">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
