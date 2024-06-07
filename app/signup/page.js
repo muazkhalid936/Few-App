@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-const User = require("../models/User");
 function Signup() {
   const [formData, setFormData] = useState({
     email: "",

@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/pngegg.ico" />
       </head>
       <body className={inter.className}>
-        <Navbar className="z-1000" />
+        <Navbar  />
         
         {children}
         <Footer />
